@@ -15,6 +15,18 @@ app.get("/", (request, response)=>{
 
 });
 
+/*
+app.post("/create", function(req, res){
+    //const data = req.body
+    //destructuracion
+    const {nombre, apellido} = req.body;
+    return res.json(nombre);
+});
+*/
+//error 500 del servidor
+//401 y 4003
+//404 no se encuentra un archivo
+
 app.post("/create", function(req, res){
 
     const data = req.body;
